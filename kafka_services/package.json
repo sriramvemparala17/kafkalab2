@@ -1,0 +1,13 @@
+{
+  "name": "kafka_services",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/services.generated.js",
+  "scripts": {
+    "build": "webpack --mode=production --config ./webpack.config.services.js",
+    "start": "npm run build && node --trace-deprecation ./dist/services.generated.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
